@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Multi-Agent Physical AI | CoRL 2026 Workshop</title>
+    <meta
+      name="description"
+      content="A CoRL 2026 workshop on the challenges and opportunities at the intersection of multi-agent systems and physical AI."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Multi-Agent Physical AI home">
+        <span class="brand-mark">CoRL 2026</span>
+        <span>Multi-Agent Physical AI</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#questions">Questions</a>
+        <a href="#speakers">Speakers</a>
+        <a href="#program">Program</a>
+        <a href="#papers">Papers</a>
+        <a href="#organizers">Committee</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="page-title">
+        <img src="assets/hero.png" alt="" />
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow">CoRL 2026 Workshop</p>
+          <h1 id="page-title">From Single-Agent to Multi-Agent Physical AI</h1>
+          <p class="hero-copy">
+            A half-day, in-person workshop asking when multi-agent structure must shape the design
+            of embodied AI systems, and when single-agent scaling is enough.
+          </p>
+          <div class="hero-actions" aria-label="Workshop quick links">
+            <a class="button primary" href="#papers">Call for Papers</a>
+            <a class="button secondary" href="#program">View Program</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-band" aria-label="Workshop summary">
+        <div class="summary-item">
+          <span>Format</span>
+          <strong>Half-day, in person</strong>
+        </div>
+        <div class="summary-item">
+          <span>Audience</span>
+          <strong>80-120 attendees</strong>
+        </div>
+        <div class="summary-item">
+          <span>Topics</span>
+          <strong>Robot learning, fleets, embodied multi-agent systems</strong>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="two-column">
+          <div>
+            <h2>Physical AI is becoming population-scale.</h2>
+          </div>
+          <div class="prose">
+            <p>
+              Physical AI refers to embodied agents acting in the physical world: robots, vehicles,
+              drones, and other systems that sense, decide, and act under real-world constraints.
+              Embodiment makes interaction, safety, uncertainty, and deployment at scale concrete
+              and consequential.
+            </p>
+            <p>
+              Today, the scaling frontier is driven by large datasets, foundation models, and
+              increasingly general single-agent policies. Yet deployed robots increasingly operate
+              as populations: autonomous vehicle fleets, warehouse robots, aerial delivery systems,
+              and collaborative manipulation platforms. In these settings, congestion, deadlock,
+              oscillation, coordination failures, and social dilemmas can determine whether systems
+              work.
+            </p>
+            <p class="callout">
+              Central question: Can the multi-agent problem be deferred until single-agent capability
+              matures, or must it shape physical AI from the beginning?
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="questions" class="section tinted">
+        <div class="section-kicker">Questions We Focus On</div>
+        <h2>What questions will the workshop focus on?</h2>
+        <p class="section-intro">
+          The workshop centers on concrete open questions that emerge when learned embodied agents
+          are deployed as populations in shared physical environments.
+        </p>
+        <div class="question-grid">
+          <article>
+            <h3>Does single-robot scaling deliver multi-agent competence?</h3>
+            <p>
+              Will broad capability emerge from data scaling and generalist policies, or is
+              coordinated population behavior a distinct axis?
+            </p>
+          </article>
+          <article>
+            <h3>Centralized or decentralized at deployment scale?</h3>
+            <p>
+              When is a robot population a single high-dimensional controller, and when is it
+              genuinely a multi-agent system?
+            </p>
+          </article>
+          <article>
+            <h3>How should systems coordinate under misaligned objectives?</h3>
+            <p>
+              Fleets with different owners may share roads, warehouses, or airspace. What can
+              incentive design, mechanism design, and light-touch control realistically achieve?
+            </p>
+          </article>
+          <article>
+            <h3>How do we benchmark populations of embodied agents?</h3>
+            <p>
+              Single-robot metrics miss fleet-level safety, throughput, congestion, deadlock, and
+              contact. The community needs simulators, benchmarks, and sim-to-real methods for
+              population-scale progress.
+            </p>
+          </article>
+        </div>
+        <div class="keyword-row" aria-label="Workshop keywords">
+          <span>Multi-agent robot learning</span>
+          <span>Physical AI</span>
+          <span>Robot fleets</span>
+          <span>Coordination</span>
+          <span>Foundation models</span>
+          <span>Simulation and benchmarks</span>
+          <span>Autonomous driving</span>
+          <span>Warehouse robotics</span>
+          <span>Aerial systems</span>
+        </div>
+      </section>
+
+      <section id="speakers" class="section">
+        <div class="section-heading">
+          <h2>Invited speakers</h2>
+          <p>
+            Speakers are framed across the single-to-multi spectrum rather than as a sequence of
+            result surveys.
+          </p>
+        </div>
+        <div class="speaker-list">
+          <article class="speaker">
+            <div class="portrait-placeholder" aria-hidden="true"></div>
+            <div>
+              <h3>Sergey Levine</h3>
+              <p>UC Berkeley</p>
+            </div>
+            <span class="status committed">Committed</span>
+            <p>
+              Anchors the single-robot scaling perspective and speaks directly to whether
+              generalist robot policies can deliver multi-agent competence.
+            </p>
+          </article>
+          <article class="speaker">
+            <div class="portrait-placeholder" aria-hidden="true"></div>
+            <div>
+              <h3>Peter Stone</h3>
+              <p>UT Austin / Sony AI</p>
+            </div>
+            <span class="status committed">Committed</span>
+            <p>
+              Brings foundations of multi-agent systems, including ad hoc teamwork and coordination
+              without shared information or prior agreement.
+            </p>
+          </article>
+          <article class="speaker">
+            <div class="portrait-placeholder" aria-hidden="true"></div>
+            <div>
+              <h3>Dorsa Sadigh</h3>
+              <p>Stanford University</p>
+            </div>
+            <span class="status pending">To be confirmed</span>
+            <p>
+              Brings interaction-aware robotics and coordination with agents whose objectives
+              differ.
+            </p>
+          </article>
+          <article class="speaker">
+            <div class="portrait-placeholder" aria-hidden="true"></div>
+            <div>
+              <h3>Ziwei Liu</h3>
+              <p>Nanyang Technological University, Singapore</p>
+            </div>
+            <span class="status committed">Committed</span>
+            <p>
+              Connects visual foundation models, generative world models, embodied AI, and
+              simulation for population-scale behavior.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="program" class="section split-section tinted">
+        <div>
+          <h2>Schedule</h2>
+          <p>
+            The workshop pairs framing talks and contributed presentations with a moderated panel
+            driven by live audience questions.
+          </p>
+        </div>
+        <ol class="schedule">
+          <li><time>10 min</time><span>Opening and framing: central question and four challenges</span></li>
+          <li><time>120 min</time><span>Four invited position statements</span></li>
+          <li><time>40 min</time><span>Moderated panel discussion and live Q&amp;A</span></li>
+          <li><time>30 min</time><span>Contributed paper oral presentations</span></li>
+          <li><time>30 min</time><span>Poster and coffee session</span></li>
+          <li><time>15 min</time><span>Best paper award and closing synthesis</span></li>
+        </ol>
+      </section>
+
+      <section id="papers" class="section">
+        <div class="section-kicker">Call for Papers</div>
+        <div class="two-column">
+          <div>
+            <h2>Call for papers</h2>
+          </div>
+          <div class="prose">
+            <p>
+              We will solicit short papers, up to 4 pages plus references, on new, preliminary, or
+              in-progress work in multi-agent and population-scale robot learning. Submissions will
+              be handled on OpenReview and reviewed double-blind by a small program committee.
+            </p>
+            <p>
+              Consistent with CoRL policy, work already accepted to the main CoRL 2026 conference
+              will not be accepted to the workshop. Top-rated accepted papers will be invited for
+              short oral presentations; the remainder will appear as posters. A sponsor-backed best
+              paper award will be presented during the closing session.
+            </p>
+            <a class="button primary inline" href="mailto:ruolinl@usc.edu">Contact Organizers</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="organizers" class="section organizer-section tinted">
+        <div class="section-heading">
+          <h2>Committee</h2>
+        </div>
+        <div class="organizer-grid">
+          <article><div class="portrait-placeholder small" aria-hidden="true"></div><span class="committee-role">Position TBD</span><h3>Ruolin Li</h3><p>University of Southern California</p><a href="mailto:ruolinl@usc.edu">ruolinl@usc.edu</a></article>
+          <article><div class="portrait-placeholder small" aria-hidden="true"></div><span class="committee-role">Position TBD</span><h3>Chen Tang</h3><p>University of California, Los Angeles</p><a href="mailto:ctangac@ucla.edu">ctangac@ucla.edu</a></article>
+          <article><div class="portrait-placeholder small" aria-hidden="true"></div><span class="committee-role">Position TBD</span><h3>Xudong Wang</h3><p>Physical Intelligence</p><span>TBD</span></article>
+          <article><div class="portrait-placeholder small" aria-hidden="true"></div><span class="committee-role">Position TBD</span><h3>Jiachen Li</h3><p>Georgia Institute of Technology</p><span>TBD</span></article>
+          <article><div class="portrait-placeholder small" aria-hidden="true"></div><span class="committee-role">Position TBD</span><h3>Kexin Wang</h3><p>University of Southern California</p><span>TBD</span></article>
+          <article><div class="portrait-placeholder small" aria-hidden="true"></div><span class="committee-role">Position TBD</span><h3>Oier Mees</h3><p>Microsoft, Zurich / ETH Zurich</p><span>To be confirmed</span></article>
+          <article><div class="portrait-placeholder small" aria-hidden="true"></div><span class="committee-role">Position TBD</span><h3>Shuijing Liu</h3><p>TBD</p><span>TBD</span></article>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>Multi-Agent Physical AI | CoRL 2026 Workshop</p>
+      <a href="#top">Back to top</a>
+    </footer>
+  </body>
+</html>
