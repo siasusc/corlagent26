@@ -332,6 +332,10 @@ h3 {
   background: var(--blue-soft);
 }
 
+.person-photo-negar {
+  object-position: center 22%;
+}
+
 .photo-slot {
   display: grid;
   place-items: center;
@@ -357,6 +361,15 @@ h3 {
   color: var(--muted);
   font-size: 0.92rem;
   line-height: 1.45;
+}
+
+.person-card p span {
+  display: block;
+}
+
+.person-title {
+  color: var(--accent);
+  font-weight: 700;
 }
 
 .speaker-list {
@@ -442,6 +455,20 @@ h3 {
   border-bottom: 1px solid var(--line);
 }
 
+.important-dates {
+  margin-top: 26px;
+}
+
+.important-dates h3 {
+  margin-top: 0;
+  color: #b22a2a;
+  font-size: 1.3rem;
+}
+
+.important-dates strong {
+  color: #b86666;
+}
+
 .schedule-list {
   max-width: 840px;
   margin: 0 auto;
@@ -472,8 +499,37 @@ h3 {
   color: #354354;
 }
 
+.talk-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.talk-grid div {
+  padding: 12px;
+  background: var(--blue-soft);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+}
+
+.talk-grid strong,
+.talk-grid span {
+  display: block;
+}
+
+.talk-grid strong {
+  color: var(--blue-dark);
+}
+
+.talk-grid span {
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
 .contact-card {
-  max-width: 720px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 24px;
   text-align: center;
@@ -485,6 +541,7 @@ h3 {
 .contact-card p:last-child {
   margin-bottom: 0;
   font-weight: 700;
+  overflow-wrap: anywhere;
 }
 
 footer {
@@ -577,6 +634,10 @@ footer a {
   .schedule-list article {
     grid-template-columns: 1fr;
     gap: 4px;
+  }
+
+  .talk-grid {
+    grid-template-columns: 1fr;
   }
 
   .photo-slot,
